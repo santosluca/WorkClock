@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def colaborator(request):
+    return render(request, "collaborator/collaborator.html")
